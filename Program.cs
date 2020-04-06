@@ -15,7 +15,7 @@ namespace CreaciónClasesAtributosGettersSettersPropiedades
             objeto.SetNombre(Console.ReadLine());
             Console.WriteLine("Escriba el Apellido");
             objeto.Apellido = Console.ReadLine();
-            Console.WriteLine("Escriba el nombre del Documento");
+            Console.WriteLine("Escriba el numero del Documento");
             objeto.numeroDeDocumento = Console.ReadLine();
             Console.WriteLine("Los Datos Ingresados Fueron:");
             Console.WriteLine("Nombre {0}", objeto.GetNombre());
